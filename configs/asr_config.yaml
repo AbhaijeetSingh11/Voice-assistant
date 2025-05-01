@@ -1,0 +1,9 @@
+# ASR training & inference settings
+model_name: "facebook/wav2vec2-base"
+data:
+  train_split: "train"
+  val_split: "validation"
+hyperparameters:
+  batch_size: 8
+  learning_rate: 3e-5
+  num_train_epochs: 3

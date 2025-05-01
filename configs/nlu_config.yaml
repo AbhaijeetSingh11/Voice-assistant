@@ -1,0 +1,9 @@
+# NLU (intent classification & slot tagging)
+model_name: "bert-base-uncased"
+data:
+  dataset: "snips"
+hyperparameters:
+  intent_batch_size: 16
+  slot_batch_size: 32
+  learning_rate: 2e-5
+  num_train_epochs: 3
