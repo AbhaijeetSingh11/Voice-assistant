@@ -12,7 +12,7 @@
 
 ```bash
 # Clone and enter repo
-git clone https://github.com/your-username/voice-assistant.git
+git clone https://github.com/AbhaijeetSingh11/Voice-assistant.git
 cd voice-assistant
 
 # Create & activate virtual environment (Linux/macOS)
